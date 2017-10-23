@@ -1,0 +1,193 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+.inline-block{
+  display: inline-block; 
+}
+/*MENU DE NAVEGACIÓN*/
+header{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 6em;
+  overflow:hidden;
+  z-index: 1;
+
+}
+header img{
+  width:75px;
+  height: 75px;
+  float: right;
+  margin-top: 0.5em;
+  margin-left:0;
+  margin-right: 4.5em;
+}
+.menu{
+  margin-top: 2.1em;
+  margin-left:11em;
+  font-weight: 900;
+  font-size: 16px;
+  width: 30%;
+}
+.menu a{
+  margin-right:2.5em;
+}
+
+.img-home{
+  margin-top:6em;
+  width: 100%;
+}
+/*SECCION DE PRESENTACION DEL NEGOCIO (HOME)*/
+.text-home{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.text-home a{
+  line-height: 12em;
+  padding: 1em;
+  background-color: #2ECB71;
+  color: white;
+  font-size: .9em;
+}
+.text-home h1{
+  font-size:3.3em;
+}
+.text-home h2{
+  font-weight:700;
+}
+/*SECCION DE SERVICIOS (SERVICES)*/
+.service{
+  background-color: #F07B72;
+  overflow: hidden;
+}
+.service-content{
+  color: white;
+  text-align: center;
+}
+.service-img-block{
+  margin:4.5em auto;
+  display: table;
+  text-align: center;
+}
+.service-img{
+  margin-right: 9.5em;
+}
+.service h2{
+  font-size: 2em;
+  padding-top: 2.5em;
+}
+.service img{
+  width: 200px;
+  height: 200px;
+}
+/*SECCION DE TRABAJOS REALIZADOS (WORK)"*/
+.work-content{
+  margin-top: 4.5em;
+  margin-left: 2.5em;
+  text-align: center;
+}
+.work h2{
+  font-size: 2.2em;
+}
+#hero{
+  width: 75%;
+  padding-top: 2em;
+  margin-bottom: 1em;
+}
+.work-img{
+  margin-left: 8em;
+}
+.fila div{
+  display: inline-block;
+  text-align: center;
+  font-weight:900;
+  width:300px;
+  margin-right: 4em;
+  margin-bottom: 4em;
+  color: #22252C;
+}
+.fila img{
+  width: 300px;
+  height: 280px;
+  
+}
+/*ESTILO DEL FOOTER*/
+footer{
+  background-color: #313339;
+  color: white;
+  padding: 0.3em;
+  text-align: center;
+}
